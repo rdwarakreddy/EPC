@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Our Clients | Elite Polycraft</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .logo-grid-item:hover .logo-img {
+            filter: grayscale(0%);
+            opacity: 1;
+        }
+
+        .logo-img {
+            filter: grayscale(100%);
+            opacity: 0.6;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+    <!-- Sticky Navigation -->
+    <header
+        class="sticky-nav bg-white/90 dark:bg-background-dark/90 border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="text-primary size-8">
+                    <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                        </path>
+                    </svg>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight">Elite Polycraft</h1>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Home.html">Home</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="About Us.html">About Us</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Services.html">Services</a>
+                <a class="text-sm font-semibold text-primary"
+                    href="Clients page.html">Clients</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="CareerPage.html">Careers</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="Contact Page.html"><button
+                        class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-md">
+                        Contact Us
+                    </button></a>
+
+            </div>
+        </div>
+    </header>
+    <main class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="py-16 md:py-24 px-4 bg-white dark:bg-slate-900/50">
+            <div class="max-w-4xl mx-auto text-center">
+                <span
+                    class="inline-block px-3 py-1 bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider rounded-full mb-4">Our
+                    Partnerships</span>
+                <h1 class="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-tight mb-6">
+                    Partnering with the Best
+                </h1>
+                <p class="text-lg md:text-xl text-slate-600 dark:text-slate-400 leading-relaxed max-w-2xl mx-auto">
+                    Elite Polycraft provides high-performance solutions for global leaders across the automotive,
+                    aerospace, and medical sectors.
+                </p>
+            </div>
+        </section>
+        <!-- Stats Section -->
+        <section class="border-y border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+            <div class="max-w-7xl mx-auto px-4 py-12">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-1">250+</div>
+                        <div class="text-sm text-slate-500 font-medium">Global Clients</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-1">15+</div>
+                        <div class="text-sm text-slate-500 font-medium">Countries Served</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-1">98%</div>
+                        <div class="text-sm text-slate-500 font-medium">Retention Rate</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-primary mb-1">1.2M</div>
+                        <div class="text-sm text-slate-500 font-medium">Parts Produced</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Logo Grid Section -->
+        <section class="py-20 px-4">
+            <div class="max-w-7xl mx-auto">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div class="max-w-xl">
+                        <h2 class="text-2xl font-bold mb-2">Industry Leaders We Work With</h2>
+                        <p class="text-slate-500">We take pride in collaborating with innovative companies that push the
+                            boundaries of manufacturing technology.</p>
+                    </div>
+                    <div class="flex gap-2">
+                        <span
+                            class="px-4 py-2 text-xs font-bold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg cursor-pointer hover:border-primary transition-colors">All
+                            Sectors</span>
+                        <span
+                            class="px-4 py-2 text-xs font-bold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg cursor-pointer hover:border-primary transition-colors">Automotive</span>
+                        <span
+                            class="px-4 py-2 text-xs font-bold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg cursor-pointer hover:border-primary transition-colors">Medical</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                    <!-- Client Logo 1 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="AeroTech professional corporate logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDj0yA8sEBsAW68eTSZe6WQf_3z7g2Fz0AVR1OHDtyJYd7GyX4XaYgwDIWLo_HRQoxDaqwaaBxIrgZqp8yTXrcVK3iTVNvX85TJTIpoHAnEV_LzfnnDTAFr-fZ1VzLdLXQ0LAVErNNuyPcU_kLb9uVMbZphxJoAsOLV_DO7NG0XxHp6tbDlHyOcY0Fzs1qs8J9YoKvA_itwoNId_9G59jTMiFU_aIVBCpnsYQe14UtjL3I2K9y9W1ValVik6EZe-_XdFsWHJD0qdvY");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 2 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Global Med healthcare industry logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCUDZOjA4OtjnPx0a_w4QVQNa2J3njqq3q463PJemPSY0rPEINHHZME3cXkG3fLJRmT2RycmjTYexXkWyPn5QVPsJLGPGb4DfShp70lrOmXjeC2UVAq8ulmdFDSRkPAk5ZTpHAK5fmVcc3WKUDk4ktFf3E98Iuvac1bxGLAwn-Xk9homigLVmS50ddDQVp5-Clkvd1EpGCZ0k6J_ZFsFf_QCI4nnzv5mhH3H7wsvs-XPVkLcTfyB8AwiJXQYbyHLGOlHa34kW81_Bg");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 3 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Precision Dynamics manufacturing logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwMYpOIlH4RoKyhapX56YcAevQKwTa1ZTf_n-njgTk0M7_3f1EFldaXDtls11ERMzMWtaesIjayk34u31-4R7OxpPwmLLEh08po2c1ueZ_x97L3MtQB9MffmFnzPDdZzBh3tTOdy1yIwikeu5JbeCH3zIhCJenNIktyEbU6InPSLByMLltd0CHAfdo1lA6TowSLdOp_QR2A6-So1JR1WQYsxKqPzE9B09qt3CQ3WANmS_dkJ91JzOotjt7SqNUE0lOgncb1ZUJJDE");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 4 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="NextGen tech innovation logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCFpBL7pFgljDYxzs7_eB8GzRcLXADkkuLygE0MOy4uCKHnV_Et9tVnzcFq7kBDpndO7ibQePtcZUjA7o7r9dBOw9sXUOzHLoVuBpXUxY8RVL_Oz3d_KotUk1IQQ0q1Fax8eZjaAbWuqFgYQSjlP0nH44k3hnxT8KGCpJeiAUH0d8EEId0ZcNO9u0-pGuhWCzGhsOIvn4JgzPTY3x24RTQoDb_34TRzEUeRogJblhvo6FoNJxZt-zKMA-ASLiSFtTHN1DIeltZOXnQ");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 5 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Titan Industrial heavy manufacturing logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWz_ozLHNbgPpuyD5qKNUFvK2Wu6dmi7rY8KzKpSvt2Rlhu-izwgbrNGkoVkD8768sSHiyq7cEclM1NASbeXTEUOs4vIIkVdj7yinvxAJcbFQDXMmoyd_ONNzrZ5r3qjKoGyvNAJbnFu0Ksczp7frwCl6wSrbXVIB0UjLfhSzzeAeE4P0OLJO1867RHbGOv_wWuiRFCGyfALom8u80uuA22K_uuVfgEpaHmlAaN9BTcKDgCg4gapQtmd_oaf8oXrsWrJsGQq-kmSA");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 6 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Solaris green energy logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCDMu6fsyJvAWrTt3vRPQOke3_IpEGe2UFWtaN3y4pDLDzFzYRvV_q16Bp41lht_UwSmIfXvcl_6LjXY3B5F3v9Kir3MyNJILfJSaoM92KctViAIf0Au3ZxfmX4Eghk9Aenu3HLekFlIjS-nkRXfStXoZeCsElKJb-ESF62mCmPHCnehDH9pYSqGIM8DmNvOafiCYdv56vFZw9Wel-oOx_i0sHI7BCW1V7coMZvuzM5i2WPTedbTgpxatwvyvSDiryPnQog8CVZovY");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 7 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="BlueChip electronics logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuALn2zKb5s5ZlguG-5LZKQX7-FHTUICCL44ZzQRXv5tGPJXLB70bj0gjvC8pVZHH913osJhHOJQjC5YgBavDRpbxdhPlXG_qzO0cjN41RX1tFuu4d7Pqp-60srBr1fNt6NveOngiN9Apyj70Y-M1g-FAQttMVmWcCnW4n8bsCKmta_O8gAKfbGiPa4DIe6FGAjbV9-J7Q5p9hvJA4fi9yDvcGBUVpYPLSVcecBnU8-krfBokPxu93ciZvQYGit8732ADR7dHir3LM4");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 8 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Orbital aerospace solutions logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbylfgH8Dis8g4LeEr7CQtGGpZ8XHrIbj9ZlzF14ksEHU__VYSkD0GQgZeZKsykWLwKPPROqPXluTm95cvIUEQNONVcsA4sQjRJdOhrSTEsS3SnPy6WrEkjLEUsQldEdAAGn-GDsCmc2e8p3XRzp8Jz_n7ZhM-G0Sema4JwnhMSdV6ZDAf4qBqUFKvnh6Mpe3FARoEf8KFxHXo357a6a1ghL6V5MpOPkpJzf9dkH8NYgeBMcJT-aup4iMHPf6ijXNFTBZ4CXD6I7U");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 9 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="BioCore medical research logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAAxEEoDbEKfFyrQxGD5atG_1aPR5aBCIsghAKis6NTRu9bw3XzX7RiCmigJOWMmb0S8GsJ3Ubk3ireXkOVyCBcTn36BjOaRAnq7wlas3DtkJ-9Fc98M5ASDpBlcZF62Olh7r8rtZUfIMpdoepOX6aO-6O3SVnGJnM8qcPLECXFH24w3NQCCajRDNJVH59zbe1Y1gcwIz7tt1igQRXsmp5qaZxiI1vdzMAppn5v-oM3U7D_1QILBoO444o2Dl2R3aEe40a2SM-uxqM");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 10 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Apex Auto manufacturing logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDRMVbwGTWwIL5ZP6a7zA6CYR7dEX5uVCNozMVf895tvAZX-geZInuV1Z4lmUIBVhviXe_BGsEp8dVnrL2rKxQNMGvSnCSUtvGCVMilBIB1tBSHqJ1VnA8zKBm589Fqrs0f64-vjbVIQr-QFD6YKhRo_Q-yX7bK3kJAAWh1lQF_Fk7ryUbqev_bfdwCwI93wzJtAd5nS8JM-4LhaVfvsz8DAzlfPK7P-VPea9ky7E1nuTvtxZm4j2vJJgx7bKQ-O3Gj6D6NO-N6I54");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 11 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="SwiftLog logistics partner logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBgELbC7atCC_IQv5WWQtYxa88_Js6FgChp8g2ScsQl0Ln0VWBHMs1zsKNrtqypOG24FAkB2nlvvvfTWM1VtJuB8u13MqrigD6o_dIRbauE3aNQ1Y-H9d_-IREk-euiBQGRDWE3Rpof5rw7vNxfVsDt3iOJGMXZxBTudZroMY-wNYBvK-0b4w3tuAjyrCJdx1iD3MZXddHpwSY2SGo3waCqbc3zVBT0pwpVF6d5KmzeAjdbhWVcz1RP1CbL2YFWitlUD-oLUaDfgp8");'>
+                        </div>
+                    </div>
+                    <!-- Client Logo 12 -->
+                    <div
+                        class="logo-grid-item group bg-white dark:bg-slate-800 p-8 rounded-xl border border-slate-100 dark:border-slate-700 flex items-center justify-center aspect-square shadow-sm hover:shadow-xl hover:border-primary/30 transition-all duration-300">
+                        <div class="w-full h-full bg-center bg-no-repeat bg-contain logo-img"
+                            data-alt="Prime Fab fabrication logo placeholder"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAiHw2qnjZc23aSrHU35i8kUW281ubKqVSA5P_kXdkIS9el51Lg0uNkiQcEhUGAk78fIQEsAFnpcfCGzmEEY7WxDXrhYpbQLXo0M5psBDUg4n1aBvxQwcbg8arVN0dmrJZdwVnknUVL5exUZW7qmuOpxMSE1-2StknjgNWrR4URndBdqndB6wthi5Lk8mjKEwLxyn6hPnNVuX3TukPHN18MGTNuTZP6QxilBOkqBJc3zdiY8NkhOw1VNTBQzLbwHN_jnwrfZFItPXI");'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Call to Action -->
+        <section class="py-20 px-4">
+            <div class="max-w-5xl mx-auto bg-primary rounded-3xl overflow-hidden relative shadow-2xl">
+                <!-- Abstract Pattern Background -->
+                <div class="absolute inset-0 opacity-10 pointer-events-none">
+                    <svg height="100%" preserveaspectratio="none" viewbox="0 0 100 100" width="100%">
+                        <path d="M0 0 L100 0 L100 100 L0 100 Z" fill="url(#grid)"></path>
+                        <defs>
+                            <pattern height="10" id="grid" patternunits="userSpaceOnUse" width="10">
+                                <path d="M 10 0 L 0 0 0 10" fill="none" stroke="white" stroke-width="0.5"></path>
+                            </pattern>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="relative z-10 p-12 md:p-20 text-center">
+                    <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Ready to start your next project?</h2>
+                    <p class="text-white/80 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">Join our network of elite
+                        industry partners today and experience world-class polycraft solutions.</p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <button
+                            class="bg-white text-primary px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 transition-colors shadow-lg">
+                            Contact Our Sales Team
+                        </button>
+                        <button
+                            class="bg-primary-dark/20 backdrop-blur-sm border border-white/30 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transition-colors">
+                            View Case Studies
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Sticky Footer -->
+    <footer class="bg-white dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 py-12">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="text-primary size-6">
+                            <svg fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <span class="text-lg font-bold">Elite Polycraft</span>
+                    </div>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                        Pioneering precision manufacturing and advanced material solutions for the world's most
+                        demanding industries.
+                    </p>
+                    <div class="flex gap-4">
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined">share</span></a>
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined">public</span></a>
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined">mail</span></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Company</h4>
+                    <ul class="space-y-4 text-sm text-slate-500">
+                        <li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Leadership</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Careers</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">News &amp; Press</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Services</h4>
+                    <ul class="space-y-4 text-sm text-slate-500">
+                        <li><a class="hover:text-primary transition-colors" href="#">Custom Molding</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Material Science</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Prototyping</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Supply Chain</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6">Contact</h4>
+                    <ul class="space-y-4 text-sm text-slate-500">
+                        <li class="flex items-center gap-3"><span
+                                class="material-symbols-outlined text-xs">location_on</span> 123 Industrial Way, CA
+                            90210</li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs">call</span>
+                            +1 (555) 123-4567</li>
+                        <li class="flex items-center gap-3"><span class="material-symbols-outlined text-xs">mail</span>
+                            sales@elitepolycraft.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="pt-12 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+                <p class="text-xs text-slate-400">© 2024 Elite Polycraft Inc. All rights reserved.</p>
+                <div class="flex gap-8 text-xs text-slate-400">
+                    <a class="hover:text-slate-600" href="#">Privacy Policy</a>
+                    <a class="hover:text-slate-600" href="#">Terms of Service</a>
+                    <a class="hover:text-slate-600" href="#">Compliance</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

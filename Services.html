@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Our Services | Elite Polycraft</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-200">
+    <!-- Sticky Navigation -->
+    <header
+        class="sticky-nav bg-white/90 dark:bg-background-dark/90 border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="text-primary size-8">
+                    <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                        </path>
+                    </svg>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight">Elite Polycraft</h1>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Home.html">Home</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="About Us.html">About Us</a>
+                <a class="text-sm font-semibold text-primary" href="Services.html">Services</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors"
+                    href="Clients page.html">Clients</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="CareerPage.html">Careers</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="Contact Page.html"><button
+                        class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-md">
+                        Contact Us
+                    </button></a>
+
+            </div>
+        </div>
+    </header>
+    <!-- Hero Banner -->
+    <header class="relative w-full h-[320px] md:h-[400px] flex items-end overflow-hidden">
+        <div class="absolute inset-0 bg-slate-900">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent z-10"></div>
+            <img alt="Industrial manufacturing facility background" class="w-full h-full object-cover opacity-60"
+                data-alt="Interior view of a modern industrial manufacturing facility with machines"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1YxumWf49-_orOThvFyfOI704lqKVHIxCD0eqZ3VNpEPyZzwk1InBLzqr62T7uWVwHqK01T4B57bAF74Ahr9cq30TV9bkzQpykXPmI4LqEnKqkhC1uXr2uuv3m2hM7cCXil2-ul99b70hPvY_CaD9Q49cCMZcY5CJOjvcuxM5oUD4Edc6-9Bi-W2aMhh0aD5nFIsRuTa1T9Taxre5V9hP1JDclosbxcrrlEZsrMOkFHm-tNuyTprVkCh1LP1ZsEn7HI-U6C4SwGc" />
+        </div>
+        <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 w-full">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">Our Services</h1>
+            <p class="text-slate-300 max-w-2xl text-lg">
+                Precision-engineered polymer solutions and industrial manufacturing excellence. From concept to
+                high-volume production.
+            </p>
+        </div>
+    </header>
+    <!-- Filter Section -->
+    <section class="py-8 bg-white dark:bg-slate-900/50 border-b border-slate-200 dark:border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-wrap items-center gap-3">
+                <span class="text-sm font-bold text-slate-500 uppercase tracking-wider mr-4">Filter by:</span>
+                <button class="px-4 py-1.5 rounded-full bg-primary text-white text-sm font-medium">All Services</button>
+                <button
+                    class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary text-sm font-medium transition-colors">Molding</button>
+                <button
+                    class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary text-sm font-medium transition-colors">Processing</button>
+                <button
+                    class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary text-sm font-medium transition-colors">Engineering</button>
+                <button
+                    class="px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary text-sm font-medium transition-colors">Design</button>
+            </div>
+        </div>
+    </section>
+    <!-- Services Grid -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service Card 1 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Polymer Processing"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="Technical machinery processing advanced polymer materials"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuB0fATu_D9WfUMbiGPUhbCWOyCj9XcxyynvrmX6ah0pgz6I4ADM6az-sbfWjY6llLkynD653g1lsAXBuE3WTw9Fkg1Q0-yYdqNKglttf7FcTZNKfl-rm3R6PhJ0xL7OBgLsYkcmd6NFYPP58tvfj7QiLO94La_ApTxaZ_E1l690ISZbfJSU-x8DuIFt5Uz6r27aLzJa99ylL0derkuCCdBxDGaQzz7-GWJ9wof3_r5ESkbC1NCE6BepJ333O7_Zo8IjNuVEfdqTxg8" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">settings_suggest</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Advanced Polymer
+                        Processing</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        High-volume material compounding and processing using state-of-the-art extrusion and treatment
+                        techniques for industrial durability.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Service Card 2 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Custom Molding"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="Metal molds used in industrial plastic injection molding"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBER8OHTHWloBWNx11kT1tMLorxJOsA_cc3RBNrjb5FNaQ3wDUFyrB0aF5G97uPOLnEh3Rs7xbrDrEvxnSu1am8-UYlR0nGx6UFFxuf0hY0-vSqeL_tgvE6X32dv6aeJY04tbOJTQHxoJZV5R4LjGdmvSrM5GWV93hRdTy4LulCrRWSYo83qJvYhliajJ-XqeUtzgmOATUhpjdYL1QXv1JAIBsLQREQm234uFOlzVfHsUfFn5JLId2dFPruAM2Z4GQ5K97zmQMbIBM" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">precision_manufacturing</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Custom Injection
+                        Molding</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        Bespoke tooling and precision injection molding services. We handle complex geometries with
+                        tight tolerances for automotive and medical sectors.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Service Card 3 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Industrial Design"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="Engineer working on a professional 3D CAD design for manufacturing"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFDIirt7WdK9yjPcSg3BeI4j-urpJU6SajvVqdC_pVuyY7ZTkv8kvYiCDNP6eks_4D5kaP-lkhxXuq6klx2EYqNTmlsXjkKSVB2YMrDlNm62SpMKwX5zFlaO2S1qB0JafPtaco_X5xmrVsanNBLdF6_N9crwLTlK6ORMykmGES4YoiEFPDsSnLk6GCQjXsWvtGMaJhijGJ4SjAiGX_m0Ha3KUWziR4H_BBbJO4fKUA-0CMkMi6TR9y7bqEaQobzUDg6oOifMRLM2Q" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">architecture</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Industrial Design
+                        &amp; CAD</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        End-to-end design services from initial sketch to full CAD models ready for mass production and
+                        rapid prototyping.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Service Card 4 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Prototyping"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="3D printer creating a complex polymer component prototype"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvFHibfOtN91yiFIPWFsgSJau3fcYz0ccnmpiHpXRxjMgYfZRCyFaFvuiAe-4jtcbdCa55oONQv9T5eRBsUHLcyDc80HsjTtGXH3wTY5_uy4CcSSSUYmUtUHnZMQSobUyDXl4op7Phb0Jwj3kRSoWrvbz8e5sGtREchrvpn6sKckOXe4muqOzmNI43chd92L2JkYPu3Qa7FroNtMykx7OjmKS8rj7DcycXO2hu1qgHo1V8Di6iMKrmwR-18WAEYPLIzfQspV71LU0" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">biotech</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Rapid Prototyping</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        Accelerate your time-to-market with our rapid functional prototyping using SLS, SLA, and CNC
+                        machining technologies.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Service Card 5 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Quality Control"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="Quality inspection tools measuring high-precision manufactured parts"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrOmGgDogXQsdAdFaFx4wOu7pL-U5Sx-eS72iBIJGDPVXbg0F6vAxmNsM06KJk6uzEwhiM2PkArbQujSI81G5er9GAlbMTXcSLMeKW2Fx4vC3yN7de3Y3EqiO8tMoeDHfyF8cYcj-mQSjnEZryciAcRzYV1IN74L12DOowx4tiOVNpaCgCoB_iTrXjlvAfCl2n-IAH0bNXfIPsxFIobDlEP95-CHJiFqZDm3oEDBxAgGmpyvzfL_50n-itrlDu0Km40moCN-OSEqU" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">verified</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Quality Assurance</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        Rigorous testing and inspection protocols ensuring every part meets ISO 9001 and aerospace
+                        standards for mission-critical use.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+            <!-- Service Card 6 -->
+            <div
+                class="group bg-white dark:bg-slate-900 rounded-xl overflow-hidden border border-slate-200 dark:border-slate-800 hover:shadow-xl transition-all duration-300 flex flex-col">
+                <div class="h-48 overflow-hidden relative">
+                    <img alt="Supply Chain"
+                        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                        data-alt="Boxes and logistics in a manufacturing warehouse environment"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8_6mca5bhb049R2Fqj5GVbtf283elo_lysfZgswP_dcCGs44nx1cRBI9HWn3vX8lVLhuaYjL_HOfCcOJeOqxb4_z5NpeLuaBe9EJeDplm4l-nYbxEA8UGNz5BlJVBEpqeD68UkvdYwMN4rCTLY1cC8-ZZxBw1AdNDHC102GOr1Np--5yFn_xfCFb1NCv7IkVRQMLykvHiZwOHuPnd4GMNNjze6dc2oBMGvOX8j6nFTk7c3y5aMCQ_S8WTmXCEMNTQiRgF5DxwW7g" />
+                    <div class="absolute top-4 left-4 bg-primary text-white p-2 rounded-lg">
+                        <span class="material-symbols-outlined">inventory_2</span>
+                    </div>
+                </div>
+                <div class="p-6 flex flex-col grow">
+                    <h3 class="text-xl font-bold mb-3 group-hover:text-primary transition-colors">Logistics &amp;
+                        Assembly</h3>
+                    <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6 grow">
+                        Full-service assembly, custom packaging, and global logistics management to streamline your
+                        production supply chain.
+                    </p>
+                    <a class="inline-flex items-center text-primary font-bold text-sm group/link" href="#">
+                        View Details
+                        <span
+                            class="material-symbols-outlined text-sm ml-1 group-hover/link:translate-x-1 transition-transform">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Call to Action Section -->
+    <section class="bg-primary/5 dark:bg-primary/10 py-20 border-y border-primary/20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Need a technical consultation?</h2>
+            <p class="text-lg text-slate-600 dark:text-slate-400 mb-10">
+                Our team of expert engineers is ready to discuss your project requirements and provide a detailed
+                feasibility analysis.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <button
+                    class="w-full sm:w-auto bg-primary text-white px-8 py-4 rounded-lg font-bold hover:bg-primary/90 transition-all shadow-xl shadow-primary/20">
+                    Contact an Expert
+                </button>
+                <button
+                    class="w-full sm:w-auto border-2 border-primary text-primary px-8 py-4 rounded-lg font-bold hover:bg-primary hover:text-white transition-all">
+                    Download Brochure
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-background-dark border-t border-slate-200 dark:border-slate-800 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-1">
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="text-primary">
+                            <svg class="size-6" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <span class="text-lg font-bold tracking-tight">Elite Polycraft</span>
+                    </div>
+                    <p class="text-sm text-slate-500 leading-relaxed">
+                        Setting the standard in precision polymer engineering for aerospace, medical, and
+                        high-performance industrial applications.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6 text-sm uppercase tracking-widest text-slate-400">Services</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a class="hover:text-primary transition-colors" href="#">Polymer Processing</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Custom Molding</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Industrial Design</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Quality Control</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6 text-sm uppercase tracking-widest text-slate-400">Company</h4>
+                    <ul class="space-y-4 text-sm font-medium">
+                        <li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Industries</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Case Studies</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold mb-6 text-sm uppercase tracking-widest text-slate-400">Newsletter</h4>
+                    <p class="text-xs text-slate-500 mb-4">Stay updated with the latest in manufacturing technology.</p>
+                    <div class="flex gap-2">
+                        <input
+                            class="bg-slate-50 dark:bg-slate-900 border-slate-200 dark:border-slate-800 rounded-lg text-sm w-full focus:border-primary focus:ring-1 focus:ring-primary"
+                            placeholder="Email" type="email" />
+                        <button class="bg-primary text-white p-2 rounded-lg">
+                            <span class="material-symbols-outlined text-sm">send</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="pt-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-xs text-slate-500">© 2024 Elite Polycraft Manufacturing Solutions. All rights reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+                        <span class="material-symbols-outlined text-xl">language</span>
+                    </a>
+                    <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+                        <span class="material-symbols-outlined text-xl">account_circle</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>About Us | Elite Polycraft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .sticky-nav {
+            position: sticky;
+            top: 0;
+            z-index: 50;
+            backdrop-filter: blur(8px);
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-display">
+    <!-- Sticky Navigation -->
+     <header
+        class="sticky-nav bg-white/90 dark:bg-background-dark/90 border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="text-primary size-8">
+                    <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                        </path>
+                    </svg>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight">Elite Polycraft</h1>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Home.html">Home</a>
+                <a class="text-sm font-semibold text-primary" href="About Us.html">About Us</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Services.html">Services</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors"
+                    href="Clients page.html">Clients</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="CareerPage.html">Careers</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="Contact Page.html"><button
+                        class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-md">
+                        Contact Us
+                    </button></a>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- CEO Section -->
+        <section class="py-16 lg:py-24 bg-white dark:bg-background-dark overflow-hidden">
+            <div class="max-w-7xl mx-auto px-6 lg:px-10">
+                <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                    <div class="relative">
+                        <div class="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">
+                            <img class="w-full h-full object-cover"
+                                data-alt="Professional portrait of CEO Johnathan Sterling"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxL8D5xYL8gNgG7U9Cu1y2ekITIoSTRb_aduQAV90naioujRaVmIBTtt_sgc11_600aKkg-l7AeNVnXnz0cqNi-ertUxQmZPRqlETAgmRQ6LbBiOF7oVPBTINMQ56w8m9UmD8r6e5gbCdG0Zq6yX6ec-GopLEu6IWJTPZfUiE-_DQbl1wTkJYw4dYoCxDjfS7QKUJe75OjGtGPlKofx2HujyjtGe48pUIY4QhLEiC0KUPjzgeYQDK-FQJSpMeMaTpa5QeO202YNsE" />
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 bg-primary p-8 rounded-xl hidden lg:block shadow-xl">
+                            <span class="material-symbols-outlined text-white text-4xl">format_quote</span>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <div>
+                            <h2 class="text-primary font-bold tracking-wider uppercase text-sm mb-2">Our Leadership</h2>
+                            <h3 class="text-4xl lg:text-5xl font-bold mb-4">Johnathan Sterling</h3>
+                            <p class="text-xl text-slate-500 dark:text-slate-400 font-medium italic">CEO &amp; Founder,
+                                Elite Polycraft</p>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-background-light dark:bg-slate-800/50 p-4 rounded-lg flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary">school</span>
+                                <div>
+                                    <p class="text-xs font-bold uppercase text-slate-400">Education</p>
+                                    <p class="text-sm font-semibold">PhD in Polymer Science, MIT</p>
+                                </div>
+                            </div>
+                            <div class="bg-background-light dark:bg-slate-800/50 p-4 rounded-lg flex items-start gap-3">
+                                <span class="material-symbols-outlined text-primary">work_history</span>
+                                <div>
+                                    <p class="text-xs font-bold uppercase text-slate-400">Experience</p>
+                                    <p class="text-sm font-semibold">20+ Years Industry Tenure</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-4">
+                            <h4 class="text-lg font-bold mb-3 flex items-center gap-2">
+                                Leadership Message
+                            </h4>
+                            <p class="text-slate-600 dark:text-slate-300 leading-relaxed text-lg">
+                                "At Elite Polycraft, our mission is to redefine the boundaries of polymer engineering
+                                through sustainable innovation and uncompromising precision. Our journey is driven by a
+                                commitment to excellence and a vision for a smarter, greener industrial future. We
+                                believe that the fusion of advanced science and environmental responsibility is the key
+                                to global progress."
+                            </p>
+                        </div>
+                        <div class="pt-4 flex gap-4">
+                            <button
+                                class="bg-primary/10 text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-bold transition-all flex items-center gap-2">
+                                <span class="material-symbols-outlined text-sm">download</span>
+                                Download Bio
+                            </button>
+                            <button
+                                class="border border-slate-200 dark:border-slate-700 px-6 py-3 rounded-lg font-bold hover:bg-slate-50 dark:hover:bg-slate-800 transition-all">
+                                View LinkedIn
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section class="py-16 lg:py-24 bg-background-light dark:bg-slate-900/50">
+            <div class="max-w-7xl mx-auto px-6 lg:px-10">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-4">The Minds Behind Elite Polycraft</h2>
+                    <p class="text-slate-500 max-w-2xl mx-auto">Our diverse team of engineers, researchers, and
+                        operational experts work together to deliver world-class polymer solutions.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Team Member 1 -->
+                    <div
+                        class="group bg-white dark:bg-background-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                data-alt="Sarah Chen Head of Operations portrait"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzVi9DPvR8t8W59A9b28PxD16ihHOfw-hLeg2uVS6L3SYNi784rzyKhbHkQQTxmA_qCpj_4JWB00dUmqhH96K43r-Q7H9xsRkrcu5SoMsQ1J-yXVTvYWqYpo3X39sbEiflb2BAIRZk8oFf5iXbQryDvVRAWRcEGehBlaZjrD46YCHu9KSK9OBMOyyzMIJc9OgWalMD2imBv0bDrvpTirpVKT74dSQtAiyO5yV5dISZ_lNXn7hl3G3GncwYoeQWW26nCvThs-rMk1c" />
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-lg font-bold group-hover:text-primary transition-colors">Sarah Chen</h4>
+                            <p class="text-slate-500 text-sm">Head of Operations</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div
+                        class="group bg-white dark:bg-background-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                data-alt="Marcus Thorne Lead Engineer portrait"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmefA8GDOkecd9T2tf0SfDPoj7Ilt34vUrOhDVPFiLScnj5fBhc4VG3H5K8WMQJWUF-Cl5lI60qsYQiLNMvVHWKbouEB2HC-P6Eg0LVHXn5k0nza6YVE5jKI5QzB86C1TGCyGI7S8mVa-ZI3f3itjVfNc6BMFHhVBMK5XvcUhfEJkumOo21y1GzEcVkMut98dddkYPL9fZDBjW-GylTWnWhoWdj3hN7WhoLV5zYfZVTvgq2ml0Jndbh0aQbHqT2MO9i2sW8wmkvwI" />
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-lg font-bold group-hover:text-primary transition-colors">Marcus Thorne</h4>
+                            <p class="text-slate-500 text-sm">Lead Engineer</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div
+                        class="group bg-white dark:bg-background-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                data-alt="Dr. Elena Rossi R&amp;D Director portrait"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQtnSWWoPXao_SaDU994pqsB_HtN4XUBUOxp-Vsznax625yw-o8hPNKkLHCrEkSocvsozDH4u0Ex_B4J1tyzpFcdqOEbXh7czuxVm-0KY84-6Lmlh1AfZAw-C-AFcS5o7a1moLveWVqvHNBIeuzQFexKR4qH--iqlMG-P9L5LijctNp1wIyNRGZWiaS-QGf8En65m-u4ggtZjlqi2xysBppi3zgsLU1tTWv0lF9ErjpNczhivZHuHi78LvSsU3ayw-e0cS0TyIA-w" />
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-lg font-bold group-hover:text-primary transition-colors">Dr. Elena Rossi
+                            </h4>
+                            <p class="text-slate-500 text-sm">R&amp;D Director</p>
+                        </div>
+                    </div>
+                    <!-- Team Member 4 -->
+                    <div
+                        class="group bg-white dark:bg-background-dark rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
+                        <div class="aspect-[3/4] overflow-hidden">
+                            <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                data-alt="David Miller Supply Chain Manager portrait"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwls86TOP_BpR2avGkbb6mz9yUsSYom3n3O4kACI8A0dA2hoat7evIBOAvhcMZ6Cg8D8OJqei24dvvNK_ZxukY8aENPd-vzTKyll4qUVXknlxB_nY-u6BBSEOWCoRXc6h1wG8dgLp7casCOI5XkyU5Nb_uHJbDH4CdWv_c87pGPNw7SBhDBoaw4jtigVywdbjK4kZKru0G7IVwAkB-5U3Uin0r0lxHAcLOzXZeuiSzBdS2NVgCWt8teCY13oX-2ZFcftqDcpGSDFA" />
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-lg font-bold group-hover:text-primary transition-colors">David Miller</h4>
+                            <p class="text-slate-500 text-sm">Supply Chain Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Awards & Recognition Section -->
+        <section class="py-16 lg:py-24 bg-white dark:bg-background-dark">
+            <div class="max-w-7xl mx-auto px-6 lg:px-10">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div class="max-w-xl">
+                        <h2 class="text-3xl lg:text-4xl font-bold mb-4">Excellence Recognized</h2>
+                        <p class="text-slate-500">Our commitment to quality and innovation has earned us prestigious
+                            industry accolades across the globe.</p>
+                    </div>
+                    <button class="text-primary font-bold flex items-center gap-2 group">
+                        View All Awards
+                        <span
+                            class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+                    </button>
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+                    <div
+                        class="border border-slate-100 dark:border-slate-800 p-8 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors text-center group">
+                        <div
+                            class="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl">military_tech</span>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">Global Polymer Award</h4>
+                        <p class="text-primary font-bold text-sm mb-2">2023</p>
+                        <p class="text-slate-400 text-xs uppercase tracking-widest font-semibold">Innovation Category
+                        </p>
+                    </div>
+                    <div
+                        class="border border-slate-100 dark:border-slate-800 p-8 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors text-center group">
+                        <div
+                            class="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl">eco</span>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">Green Tech Seal</h4>
+                        <p class="text-primary font-bold text-sm mb-2">2022</p>
+                        <p class="text-slate-400 text-xs uppercase tracking-widest font-semibold">Sustainability First
+                        </p>
+                    </div>
+                    <div
+                        class="border border-slate-100 dark:border-slate-800 p-8 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors text-center group">
+                        <div
+                            class="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl">workspace_premium</span>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">ISO 9001:2015</h4>
+                        <p class="text-primary font-bold text-sm mb-2">2021</p>
+                        <p class="text-slate-400 text-xs uppercase tracking-widest font-semibold">Quality Management</p>
+                    </div>
+                    <div
+                        class="border border-slate-100 dark:border-slate-800 p-8 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800/50 transition-colors text-center group">
+                        <div
+                            class="bg-primary/10 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl">precision_manufacturing</span>
+                        </div>
+                        <h4 class="font-bold text-lg mb-1">Eng. Excellence</h4>
+                        <p class="text-primary font-bold text-sm mb-2">2020</p>
+                        <p class="text-slate-400 text-xs uppercase tracking-widest font-semibold">Technical Achievement
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-background-dark text-slate-300 py-16">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16 border-b border-slate-800 pb-16">
+                <div>
+                    <div class="flex items-center gap-3 text-white mb-6">
+                        <div class="text-primary size-6">
+                            <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h2 class="text-lg font-bold tracking-tight">Elite Polycraft</h2>
+                    </div>
+                    <p class="text-sm leading-relaxed mb-6">Advancing the science of polymers with precision engineering
+                        and sustainable materials since 1998.</p>
+                    <div class="flex gap-4">
+                        <a class="bg-slate-800 p-2 rounded hover:bg-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined text-sm">public</span></a>
+                        <a class="bg-slate-800 p-2 rounded hover:bg-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined text-sm">alternate_email</span></a>
+                        <a class="bg-slate-800 p-2 rounded hover:bg-primary transition-colors" href="#"><span
+                                class="material-symbols-outlined text-sm">share</span></a>
+                    </div>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-6 uppercase text-xs tracking-widest">Quick Links</h5>
+                    <ul class="space-y-4 text-sm">
+                        <li><a class="hover:text-primary transition-colors" href="#">About Our Process</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Product Catalog</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Sustainability Report</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Technical Datasheets</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-6 uppercase text-xs tracking-widest">Global Support</h5>
+                    <ul class="space-y-4 text-sm">
+                        <li><a class="hover:text-primary transition-colors" href="#">Customer Service</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Request a Quote</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Logistics Tracking</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 class="text-white font-bold mb-6 uppercase text-xs tracking-widest">Contact Info</h5>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                            1200 Innovation Drive, Silicon Park, CA
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-sm">mail</span>
+                            info@elitepolycraft.com
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary text-sm">call</span>
+                            +1 (555) 987-6543
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+                <p>© 2024 Elite Polycraft Inc. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a class="hover:text-slate-300" href="#">Privacy Policy</a>
+                    <a class="hover:text-slate-300" href="#">Terms of Service</a>
+                    <a class="hover:text-slate-300" href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

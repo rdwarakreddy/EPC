@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Careers at Elite Polycraft</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <!-- Google Fonts: Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet" />
+  <!-- Material Symbols -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1754cf",
+            "background-light": "#f6f6f8",
+            "background-dark": "#111621",
+          },
+          fontFamily: {
+            "display": ["Inter"]
+          },
+          borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 min-h-screen flex flex-col">
+  <!-- Sticky Navigation -->
+  <header
+        class="sticky-nav bg-white/90 dark:bg-background-dark/90 border-b border-slate-200 dark:border-slate-800 transition-all">
+        <div class="max-w-7xl mx-auto px-6 lg:px-10 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="text-primary size-8">
+                    <svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z">
+                        </path>
+                    </svg>
+                </div>
+                <h1 class="text-xl font-bold tracking-tight">Elite Polycraft</h1>
+            </div>
+            <nav class="hidden md:flex items-center gap-10">
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Home.html">Home</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="About Us.html">About Us</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors" href="Services.html">Services</a>
+                <a class="text-sm font-semibold hover:text-primary transition-colors"
+                    href="Clients page.html">Clients</a>
+                <a class="text-sm font-semibold text-primary" href="CareerPage.html">Careers</a>
+            </nav>
+            <div class="flex items-center gap-4">
+                <a href="Contact Page.html"><button
+                        class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-md">
+                        Contact Us
+                    </button></a>
+
+            </div>
+        </div>
+    </header>
+  <!-- Main Content -->
+  <main class="grow flex flex-col items-center justify-center px-4 py-12">
+    <div class="max-w-3xl w-full text-center">
+      <!-- Hero Badge -->
+      <div
+        class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
+        </span>
+        Join Our Talent Pool
+      </div>
+      <!-- Title -->
+      <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-6 tracking-tight">
+        Careers at Elite Polycraft
+      </h1>
+      <!-- Message Card -->
+      <div
+        class="bg-white dark:bg-slate-900 p-8 md:p-12 rounded-xl shadow-xl border border-slate-200 dark:border-slate-800 relative overflow-hidden">
+        <!-- Abstract Background Pattern -->
+        <div class="absolute top-0 right-0 -mt-10 -mr-10 opacity-5 dark:opacity-10 text-primary">
+          <span class="material-symbols-outlined text-[200px]">work</span>
+        </div>
+        <div class="relative z-10 flex flex-col items-center">
+          <!-- Status Illustration -->
+          <div class="w-24 h-24 bg-primary/5 rounded-full flex items-center justify-center mb-8">
+            <span class="material-symbols-outlined text-primary text-5xl">person_search</span>
+          </div>
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-4">No open job positions</h2>
+          <p class="text-slate-600 dark:text-slate-400 text-lg leading-relaxed max-w-lg mb-8">
+            As of now, there are no open job positions. However, we are always looking for exceptional talent to join
+            our team. Please send your resume to the email below and our team will get back to you when opportunities
+            arise.
+          </p>
+          <!-- Contact Details -->
+          <div class="w-full flex flex-col items-center gap-6">
+            <div
+              class="flex items-center gap-3 p-4 bg-background-light dark:bg-slate-800/50 rounded-lg border border-slate-200 dark:border-slate-700">
+              <span class="material-symbols-outlined text-primary">mail</span>
+              <span
+                class="text-lg font-semibold text-primary underline underline-offset-4 cursor-pointer hover:text-primary/80">
+                careers@elitepolycraft.com
+              </span>
+            </div>
+            <a class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-primary rounded-lg hover:bg-primary/90 transition-all transform hover:scale-[1.02] shadow-lg shadow-primary/20"
+              href="mailto:careers@elitepolycraft.com">
+              <span class="material-symbols-outlined mr-2">upload_file</span>
+              Submit Resume
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Supporting Text -->
+      <p class="mt-8 text-sm text-slate-500 dark:text-slate-400 italic">
+        By submitting your resume, you agree to our privacy policy and data storage terms.
+      </p>
+    </div>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-white dark:bg-background-dark border-t border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center text-center md:text-left">
+        <!-- Branding -->
+        <div class="flex flex-col items-center md:items-start gap-2">
+          <div class="flex items-center gap-2">
+            <div class="text-primary/80">
+              <svg class="w-6 h-6" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M42.4379 44C42.4379 44 36.0744 33.9038 41.1692 24C46.8624 12.9336 42.2078 4 42.2078 4L7.01134 4C7.01134 4 11.6577 12.932 5.96912 23.9969C0.876273 33.9029 7.27094 44 7.27094 44L42.4379 44Z"
+                  fill="currentColor"></path>
+              </svg>
+            </div>
+            <span class="font-bold text-slate-900 dark:text-white">Elite Polycraft</span>
+          </div>
+          <p class="text-xs text-slate-500">Excellence in Polymer Engineering</p>
+        </div>
+        <!-- Quick Links -->
+        <div class="flex justify-center gap-8">
+          <a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Privacy Policy</a>
+          <a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Terms of Service</a>
+          <a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Contact</a>
+        </div>
+        <!-- Socials -->
+        <div class="flex justify-center md:justify-end gap-6">
+          <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 256 256">
+              <path
+                d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z">
+              </path>
+            </svg>
+          </a>
+          <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 256 256">
+              <path
+                d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z">
+              </path>
+            </svg>
+          </a>
+          <a class="text-slate-400 hover:text-primary transition-colors" href="#">
+            <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 256 256">
+              <path
+                d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z">
+              </path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="mt-8 pt-8 border-t border-slate-100 dark:border-slate-800 text-center">
+        <p class="text-sm text-slate-500">© 2024 Elite Polycraft. All rights reserved. Designed for excellence.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
